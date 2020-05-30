@@ -144,7 +144,7 @@ h3 {
 }
 
 .text2 {
-  font-size: 14px;
+  font-size: 15px;
   color: #555555;
   line-height: 20px;
   letter-spacing: 0.2px;
@@ -168,16 +168,45 @@ h3 {
 }
 
 .bottom {
-  width: 580px;
+  max-width: 570px;
   float: left;
 }
 
 .bottom-h {
+  margin-top: 8px;
   font-family: "Caladea", serif;
   font-size: 16px;
   text-transform: capitalize;
   color: #121212;
   font-weight: 700;
   line-height: 26px;
-  letter-spacing: 0.2px;
+}
+
+.bottom-text-right {
+  float: right;
+  width: 170px;
+  color: #999999;
+  font-size: 11px;
+  letter-spacing: 0.1px;
+  line-height: 14px;
+}
+
+.light {
+  color: #cccccc;
+  font-size: 11px;
+  letter-spacing: 0.1px;
+}
+
+
+.bottom::before {
+  content: "";
+  width: 580px;
+  height: 1px;
+  background-color: #e2e2e2;
+  display: block;
+}
+
+.ragaca {
+  width: 800px;
+  vertical-align: top;
 }
