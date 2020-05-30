@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+.inline-block {
+  display: inline-block;
+}
+
+body {
+  padding-left: 24px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1124px;
+}
+
+.title-article {
+  margin: 0 auto 15px;
+  max-width: 900px;
+  padding: 20px 0 0;
+}
+h1 {
+  font-family: "Caladea", serif;
+  text-align: center;
+  text-transform: none;
+  color: rgba(0, 0, 0, 0.85);
+  max-width: 580px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+}
+
+.athome {
+  font-size: 23px;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: black;
+  border-bottom: 1px solid;
+  transition: border 0.3s ease-out;
+}
+
+.image-cat-dog {
+  margin-left: 8px;
+  margin-bottom: 8px;
+  height: 180px;
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.describ-article {
+  border: 2px solid #ffffff;
+  margin: 8px;
+  float: left;
+  width: 790px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #121212;
+}
+
+.text {
+  width: 460px;
+  font-family: "EB Garamond", serif;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 28px;
+  line-height: 32px;
+  margin-bottom: 15px;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.bg-orange {
+  background-color: #fceeac;
+}
+
+.sign-up-link,
+.explore-link {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  float: left;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.85);
+  text-transform: capitalize;
+}
+
+.sign-up-link {
+  margin-right: 24px;
+}
+
+.title-article::after {
+  content: "";
+  width: 100px;
+  height: 1px;
+  background-color: #dedede;
+  display: block;
+  margin: 16px auto 0 auto;
+}
+
+.image-text-wrap::after {
+  content: "";
+  width: 100px;
+  height: 1px;
+  background-color: #dedede;
+  display: block;
+  margin: 16px auto 0 auto;
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+}
+
+.moscow-covid {
+  font-family: "Caladea", serif;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #121212;
+  max-width: 241px;
+  margin-top: 8px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+}
+
+.img-corona {
+  margin-left: 8px;
+  margin-bottom: 8px;
+  width: 499px;
+  float: right;
+}
+
+.text2 {
+  font-size: 14px;
+  color: #555555;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  width: 270px;
+  margin-top: 8px;
+}
+
+.live {
+  margin-top: 8px;
+  font-family: "Oswald", sans-serif;
+  color: #d0021b;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.image-text-wrap2 {
+  margin: 8px;
+  float: left;
+  width: 790px;
+  padding-bottom: 18px;
+}
+
+.bottom {
+  width: 580px;
+  float: left;
+}
+
+.bottom-h {
+  font-family: "Caladea", serif;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #121212;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+}
