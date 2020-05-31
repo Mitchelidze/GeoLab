@@ -16,7 +16,6 @@ body {
 .title-article {
   margin: 0 auto 15px;
   max-width: 900px;
-  padding: 20px 0 0;
 }
 h1 {
   font-family: "Caladea", serif;
@@ -52,7 +51,6 @@ h1 {
 }
 
 .describ-article {
-  border: 2px solid #ffffff;
   margin: 8px;
   float: left;
   width: 790px;
@@ -210,18 +208,25 @@ h3 {
   float: left;
   border-right: 1px solid #ccc;
   padding-right: 16px;
+  margin-top: 24px;
 }
 
 .section-right {
   max-width: 400px;
   float: left;
   padding-left: 16px;
-  padding-top: 24px;
+  padding-top: 16px;
 }
 
 .topic1, .topic2, .topic3, .topic4 {
+  font-family: "EB Garamond", serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  line-height: 1.1875rem;
+  text-transform: capitalize;
   padding: 14px 0;
-  max-width: 178px;
+  width: 178px;
   float: left;
 }
 
@@ -233,4 +238,16 @@ h3 {
   padding-left: 16px;
   margin-left: 16px;
   border-left: 1px solid #ccc;
+}
+
+.autor {
+  color: #a19d9d;
+  margin-bottom: 6px;
+}
+
+.topic-img {
+  border-radius: 50%;
+  float: right;
+  width: 36px;
+  margin-right: 6px;
 }
