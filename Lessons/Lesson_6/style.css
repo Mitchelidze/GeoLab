@@ -7,6 +7,10 @@
   display: inline-block;
 }
 
+.float-left {
+  float: left;
+}
+
 body {
   padding-left: 24px;
   margin: 0 auto;
@@ -53,7 +57,6 @@ h1 {
 
 .describ-article {
   margin: 8px;
-  float: left;
   width: 790px;
   padding-bottom: 18px;
   border-bottom: 1px solid #121212;
@@ -80,7 +83,6 @@ h1 {
 .explore-link {
   font-family: "Oswald", sans-serif;
   font-weight: 700;
-  float: left;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.85);
   text-transform: capitalize;
@@ -114,7 +116,7 @@ h1 {
   margin-top: 16px;
 }
 
-h3 {
+.global-impact, h4 {
   font-family: "Oswald", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -160,14 +162,12 @@ h3 {
 
 .image-text-wrap2 {
   margin: 8px;
-  float: left;
   width: 790px;
   padding-bottom: 18px;
 }
 
 .bottom {
   max-width: 570px;
-  float: left;
 }
 
 .bottom-h {
@@ -206,7 +206,6 @@ h3 {
 
 .section-left {
   max-width: 816px;
-  float: left;
   border-right: 1px solid #ccc;
   padding-right: 16px;
   margin-top: 24px;
@@ -214,7 +213,6 @@ h3 {
 
 .section-right {
   max-width: 400px;
-  float: left;
   padding-left: 16px;
   padding-top: 16px;
 }
@@ -228,7 +226,6 @@ h3 {
   text-transform: capitalize;
   padding: 14px 0;
   width: 178px;
-  float: left;
 }
 
 .topic3 {
@@ -257,7 +254,27 @@ h3 {
 width: 385px;
 }
 
-.editors-picks {
-  margin: 0 0 8px;
-  padding: 2px 0 8px;
+.editors-picks, h3 {
+  color: #121212;
+  margin: 0 auto;
+  padding: 0 0 8px;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.width248 {
+width: 248px;
+}
+
+.width248::after {
+  content: "";
+  width: 100px;
+  height: 1px;
+  background-color: #dedede;
+  display: block;
+  margin: 16px auto 0 auto;
+}
+
+.right-bottom-box {
+  padding-left: 16px;
 }
