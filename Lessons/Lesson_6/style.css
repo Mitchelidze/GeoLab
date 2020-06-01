@@ -11,6 +11,7 @@ body {
   padding-left: 24px;
   margin: 0 auto;
   width: 100%;
+  max-width: 1270px;
 }
 
 .title-article {
@@ -250,4 +251,13 @@ h3 {
   float: right;
   width: 36px;
   margin-right: 6px;
+}
+
+.img-bangkok {
+width: 385px;
+}
+
+.editors-picks {
+  margin: 0 0 8px;
+  padding: 2px 0 8px;
 }
