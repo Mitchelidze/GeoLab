@@ -2,9 +2,9 @@ html, body {
     width: 100%;
     height: 100%;
 }
-body {
+/* body {
     padding: 2%;
-}
+} */
 
 /* fluid */
 
@@ -74,4 +74,23 @@ body {
 .title {
     text-align: center;
     margin: 8px auto;
+}
+
+/* position */
+
+.img-text, img {
+    position: relative;
+    height: 100%;
+}
+p {
+    color: black;
+    position: absolute;
+    top: 150px;
+    left: 65px;
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+.white {
+    color: #ffffff;
 }
