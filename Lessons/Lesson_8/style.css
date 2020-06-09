@@ -22,6 +22,7 @@ body {
     border-radius: 10px;
     margin-top: 48px;
     margin-bottom: 48px;
+    box-shadow: 0 5px 35px 0 rgba(0, 0, 0, 0.05);
 }
 h5 {
     width: 150px;
@@ -95,9 +96,10 @@ h6 {
     max-width: 750px;
     padding: 32px 32px 16px 32px;
     margin-right: 24px;
-    border: 1px solid  rgba(0,0,0,0.10);
+    /* border: 1px solid  rgba(0,0,0,0.10); */
     border-radius: 10px;
     vertical-align: top;
+    box-shadow: 0 5px 35px 0 rgba(0, 0, 0, 0.05);
 }
 .off-road-img {
     max-width: 176px;
@@ -127,6 +129,7 @@ h6 {
     padding: 40px;
     border-radius: 10px;
     margin-bottom: 24px;
+    box-shadow: 0 5px 35px 0 rgba(0, 0, 0, 0.05);
 }
 .promotion {
     vertical-align: top;
@@ -159,7 +162,7 @@ h2 {
     padding: 40px;
     /* border: 1px solid rgba(0,0,0,0.10); */
     border-radius: 10px;
-    box-shadow: 0 5px 35px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 35px 0 rgba(0, 0, 0, 0.05);
 }
 aside {
     width: 420px;
