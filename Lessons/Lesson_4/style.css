@@ -3,8 +3,8 @@
   text-decoration: none;
   list-style-type: none;
 }
-.inline-block {
-  display: inline-block;
+. {
+  display: ;
 }
 
 .italic {
@@ -168,7 +168,7 @@ p {
   text-transform: uppercase;
   color: orange;
   font-size: 60px;
-  display: inline-block;
+  display: ;
   float: left;
   font-weight: 700;
   padding: 16px 7px 4px 0;
