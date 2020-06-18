@@ -98,7 +98,7 @@ h1 {
 }
 
 
-.global-impact, h4 {
+.global-impact h4 {
   font-family: "Oswald", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -142,12 +142,14 @@ h1 {
   margin-right: 8px;
 }
 .comments {
-  color: #999999;
-  font-weight: 400;
+  color: #999;
+  font-weight: 300;
+  letter-spacing: 0.5px;
   line-height: 18px;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #eee;
 }
 .live-comments {
+  font-weight: 500;
   align-items: center;
   margin-top: 8px;
 }
