@@ -228,12 +228,6 @@ h1 {
   border-top: 1px solid #ccc;
 }
 
-.topic2, .topic4 {
-  padding-left: 16px;
-  margin-left: 16px;
-  border-left: 1px solid #ccc;
-}
-
 .autor {
   color: #a19d9d;
   margin-bottom: 6px;
@@ -293,4 +287,8 @@ figcaption {
 
 .width385 {
   width: 385px;
+}
+
+.both {
+  justify-content: space-between;
 }
