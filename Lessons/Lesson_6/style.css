@@ -2,8 +2,9 @@
   display: flex;
 }
 .container-main {
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 1270px;
+  width: 100%;
   margin: 0 auto;
 }
 .title-article {
@@ -207,12 +208,11 @@ h1 {
   margin-bottom: 48px;
 }
 
-.section-right {
+.section-right-top {
   max-width: 400px;
-  padding-left: 16px;
-  padding-top: 16px;
+  max-height: 240px;
+  justify-content: space-between;
 }
-
 .topic1, .topic2, .topic3, .topic4 {
   font-family: "EB Garamond", serif;
   font-weight: 600;
@@ -220,12 +220,16 @@ h1 {
   letter-spacing: 0.1px;
   line-height: 1.1875rem;
   text-transform: capitalize;
-  padding: 14px 0;
   width: 178px;
 }
 
-.topic3 {
-  border-top: 1px solid #ccc;
+.topic1, .topic3 {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.topic2, .topic4 {
+  padding-top: 8px;
 }
 
 .autor {
@@ -248,7 +252,6 @@ width: 385px;
   font-family: "Oswald", sans-serif;
   color: #121212;
   margin: 0 auto;
-  padding: 0 0 8px;
   font-size: 16px;
   text-transform: capitalize;
   letter-spacing: 0.5px;
@@ -291,4 +294,8 @@ figcaption {
 
 .both {
   justify-content: space-between;
+}
+
+.rl, .rlb {
+  flex-direction: column;
 }
