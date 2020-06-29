@@ -3,8 +3,8 @@
   text-decoration: none;
   list-style-type: none;
 }
-. {
-  display: ;
+.flex {
+  display: flex;
 }
 
 .italic {
@@ -107,9 +107,8 @@ p {
 }
 
 .article-info {
-  width: 600px;
-  margin-left: 150px;
-  text-align: left;
+  margin: 0 auto;
+  max-width: 600px;
 }
 
 .share-buttons {
@@ -117,6 +116,10 @@ p {
   margin-block-start: 8px;
   margin-block-end: 8px;
   font-size: 24px;
+}
+
+.share-buttons .fb, .twitter, .email {
+  margin-right: 8px;
 }
 
 .container {
