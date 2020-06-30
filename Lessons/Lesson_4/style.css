@@ -1,9 +1,19 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
 }
 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -114,8 +124,10 @@ p {
 
 .share-buttons {
   padding: 0;
-  margin-block-start: 8px;
-  margin-block-end: 8px;
+  -webkit-margin-before: 8px;
+          margin-block-start: 8px;
+  -webkit-margin-after: 8px;
+          margin-block-end: 8px;
   font-size: 24px;
 }
 
@@ -137,17 +149,23 @@ p {
   display: block;
   width: 100%;
   height: auto;
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
   transition: 0.5s ease;
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
 
 .middle {
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
   transition: 0.5s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
 
@@ -176,7 +194,8 @@ p {
   float: left;
   font-weight: 700;
   padding: 16px 7px 4px 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .fa-facebook-square:before {
@@ -217,13 +236,15 @@ p {
   font-style: normal;
 }
 
-.article-footer {
-  background-color: #717171;
+footer {
+  border-top: 1px solid #717171;
   width: 100%;
   max-width: 600px;
-  height: 1px;
-  align-items: center;
-  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 16px 0 auto;
+  padding-top: 8px;
 }
 
 footer,
