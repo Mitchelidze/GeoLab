@@ -75,7 +75,6 @@ h1 {
   margin-left: 8px;
   margin-bottom: 8px;
   height: 180px;
-  float: right;
 }
 
 .describ-article {
@@ -391,6 +390,7 @@ figcaption {
     margin: 16px 0 8px 0;
     max-width: 499px;
     width: 100%;
+    height: auto;
   }
   .bottom-h {
     line-height: 20px;
@@ -410,6 +410,9 @@ figcaption {
   }
   .section-right-top {
     display: none;
+  }
+  .image-cat-dog {
+    margin: 0 auto;
   }
 
 }
